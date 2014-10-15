@@ -1,6 +1,6 @@
 include ../config.mk
 
-C_FILES		:= *.c
+C_FILES		:= tcp_socket.c
 
 OBJ		:= $(C_FILES:%.c=%.o)
 
